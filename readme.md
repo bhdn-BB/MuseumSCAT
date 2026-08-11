@@ -2,9 +2,11 @@
 
 ### Experiment Results
 
-| Approach               | LB Score (AURC) |
-|------------------------|----------------:|
-| Qwen3-VL 2B, Zero-shot |           0.345 |
+| Approach               | LB Score (AURC) | Improvement                     |
+|------------------------|----------------:|---------------------------------|
+| Qwen3-VL 2B, Zero-shot |           0.345 | Use a larger model              |
+| Qwen3-VL 4B, Zero-shot |         0.23077 | Improve the prompt              |
+| Qwen3-VL 4B, Zero-shot |         0.14525 | Perform SFT on the training set |
 
 ### Run inference
 
